@@ -7,7 +7,7 @@ Here you can find a collection of scripts that I used for various projects of th
 
 ### FishPlot pipeline
 
-To generate a fishplot a pipeline of SciClone and Clonevol is needed in advance of the establishment of a fishplot. For each step in this pipeline tables and figures are generated.
+To generate a fishplot a pipeline of [SciClone](https://github.com/genome/sciclone), [Clonevol](https://github.com/hdng/clonevol) and [FishPlot](https://github.com/chrisamiller/fishplot) is needed in advance of the establishment of a fishplot. For each step in this pipeline tables and figures are generated.
 
  + R-scripts needed:
-	+ `FishPlot.R `
+	+ `CreateFishPlotFromVAF.R `
