@@ -1,6 +1,6 @@
 # !/usr/bin/env Rscript
 # ==============================================================================
-# Create_FishPlot_From_VAF.R
+# CreateFishPlotFromVAF.R
 #
 # Author: Raphael Hablesreiter (raphael.hablesreiter@charite.de)
 #
@@ -210,7 +210,7 @@ plot.clonal.models(
     clone.time.step.scale = 1,
     bell.curve.step = 2,
     show.time.axis = FALSE,
-    
+
     # node-based consensus tree parameters
     merged.tree.plot = FALSE,
     tree.node.label.split.character = ',',
@@ -289,7 +289,7 @@ for (i in 1:length(fishplot_input$cell.fractions))
     fishplot_layout = setCol(fishplot_layout,
                              fishplot_input$clonevol.clone.colors)
     fishplot_layout = drawLegend(fishplot_layout)
-    
+
     fishPlot(
         fishplot_layout,
         shape = "spline",
@@ -301,4 +301,3 @@ for (i in 1:length(fishplot_input$cell.fractions))
 }
 
 dev.off()
-
